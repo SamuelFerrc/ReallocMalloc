@@ -37,7 +37,7 @@ Sua alocação que antes era de 1 lugar agora passa a ser de 10 lugares, ou seja
 O primeiro parâmetro de um realloc indica o valor atual da realocação, quem será realocado, o segundo parâmetro indica o novo tamanho, o retorno é dado pelo novo valor. <br>
 
 # Lista Encadeada
-<img width="493" height="500" alt="image" src="https://github.com/user-attachments/assets/08efac54-e593-4b95-b12e-0f86c8bf4cc0" />
+<img width="493" height="500" alt="image" src="https://github.com/user-attachments/assets/08efac54-e593-4b95-b12e-0f86c8bf4cc0" /><br>
 Para entender listas encadas é preciso ver uma corrente (sim, uma corrente), correntes tem elos (nós), nós esses que são ligados uns aos outros, esses nós em sua essência formam uma ligação um com outro e no fim formam uma corrente.<br>
 Analogo a isto é a lista encadeada, possui nós que contem dados e esses nós apontam com ponteiros para outro nó, assim por diante, até chegar ao fim da lista encadeada.
 
