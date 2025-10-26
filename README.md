@@ -20,7 +20,7 @@ C é uma linguagem que te permite fazer muitas coisas com memoria, tipo muitas m
 Sabendo que C é realmente bem flexivel quanto a memoria, existe outra coisa que ele nos permite fazer, sendo ela alocar espaço de memoria.
 #### E o que significa alocar espaço de memoria?
 Imagine que você esteja em uma fila, e alguem pede para você guardar um lugar pra ela na fila. Isso é basicamente uma alocação, a pessoa pediu pra você guardar o lugar, então aquele lugar está ocupado.
-O espaço foi alocado para esta pessoa, semelhante assim funciona a memoria, seu codigo em C chega na memoria e fala *"guarda estas posições na memoria para mim"* então seu codigo em C também informa qual é o tamanho do dado sendo alocado.
+O espaço foi alocado para esta pessoa, semelhante a isso assim funciona a memoria, seu codigo em C chega na memoria e fala *"guarda estas posições na memoria para mim"* então seu codigo em C também informa qual é o tamanho do dado que está sendo alocado.
 
 <img width="415" height="32" alt="image" src="https://github.com/user-attachments/assets/367cf7b2-6913-482c-bb20-950894bc8b8f" /><br>
 É basicamente assim, malloc(size) size representa o tamanho da memoria sendo alocada, no nosso caso da prova, representa 1*sizeof(int), sizeof retorna o tamanho de um inteiro (int).
@@ -41,7 +41,7 @@ O primeiro parâmetro de um realloc indica o valor atual da realocação, quem s
 Para entender listas encadas é preciso ver uma corrente (sim, uma corrente), correntes tem elos (nós), nós esses que são ligados uns aos outros, esses nós em sua essência formam uma ligação um com outro e no fim formam uma corrente.<br>
 Analogo a isto é a lista encadeada, possui nós que contem dados e esses nós apontam com ponteiros para outro nó, assim por diante, até chegar ao fim da lista encadeada.
 
-<img width="196" height="109" alt="image" src="https://github.com/user-attachments/assets/1a1e7251-bfc6-4a1c-a326-9bc533683ff1" />
+<img width="196" height="109" alt="image" src="https://github.com/user-attachments/assets/1a1e7251-bfc6-4a1c-a326-9bc533683ff1" /> <br>
 int data representa o dado que tem naquele nó especifico. Node*next representa o proximo nó sendo apontado.
 
 Com essa representação temos uma lista encadeada que pode ser acessada em maneira sequencial.
