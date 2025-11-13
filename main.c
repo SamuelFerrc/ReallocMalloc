@@ -82,7 +82,7 @@ int *lerAlocar() { //Precisa retornar um ponteiro, pois é o nosso Vetor
  *   lista - retorna o inicio da lista encadeada
  */
 
-//Uma lista encadeada, é basicamente uma estrutura em cadeia que vai armazenar os nós, como se fosse um cadeado.
+//Uma lista encadeada, é basicamente uma estrutura em cadeia que vai armazenar os nós, como se fosse uma corrente.
 //É só imaginar uma corrente, cada elo da corrente tá ligado a um outro elo
 //A lista encadeada é uma estrutura importante pra entender a base das estruturas de dados fundamentais.
 typedef struct Node {
