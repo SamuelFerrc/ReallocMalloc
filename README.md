@@ -1,5 +1,5 @@
 # Objetivo
-Esse repositorio tem por objetivo, tornar possivel de responder uma prova especifica.
+Esse repositorio tem por objetivo, ensinar minha querida namorada (mi amore) e tornar possivel de responder uma prova especifica.
 Prova está que tem como topicos **vetores dinâmicos**, **realloc** e **malloc**, mas para entender ambos repassaremos por ponteiro.
 
 # Ponteiros
